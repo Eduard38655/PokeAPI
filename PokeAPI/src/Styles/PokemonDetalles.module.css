@@ -1,0 +1,229 @@
+ .DetallesContainer{
+    width: 900px;
+    height: auto;
+    display:grid;
+    justify-content: center;
+background-color: #334155;
+    flex-direction: column;
+    grid-template-columns:auto ;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+     padding: 30px;
+     gap: 20px;
+     box-shadow:5px 5px 5px 0px rgba(31, 41, 55, 0.5);
+     border-radius: 10px;
+}
+ 
+.DetallesContainer button{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background: #eab308;
+    color: #111827;
+    
+}
+.DetallesContainer button i{
+    margin-right: 5px;
+}
+.PokemonInfo{
+    width: 400px;
+    height: 600px;
+ grid-area: 2;
+ background-color: rgba(31, 41, 55, 0.5);
+ display: flex;
+ align-items: center;
+ padding: 20px;
+ flex-direction: column;
+gap: 10px;
+}
+.Description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.DivTypes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.DivTypes ul{
+    width: auto;
+    height: auto;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+     
+     
+    font-size: 14px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    grid-area: 10px;
+
+}
+.DivTypes ul li{
+color: white;
+background: purple;
+ margin-right: 10px;
+ padding: 8px;
+  border-radius: 10px;
+}
+.PokemonInfo h2{
+    font-size: 40px;
+     color: #eab308;
+}
+.PokemonInfo span{
+    color: #9ca3af;
+}
+.Description p{
+     color: #9ca3af;
+}
+.Container_Habilities{
+    width: 400px;
+    height: auto;
+     grid-area: 2/3;
+   background-color: rgba(31, 41, 55, 0.5);
+     display: flex;
+   
+     justify-content: center;
+     flex-direction: column;
+     justify-content: space-around;
+     padding: 20px;
+}
+
+.DivHeight{
+    width: 100%;
+    height: 120px;
+     background-color: rgba(31, 41, 55, 0.5);
+     display: flex;
+  
+     justify-content: center;
+   flex-direction: column;
+   
+   padding: 10px;
+   border-radius: 6px;
+ 
+
+}
+.DivHeight p{
+
+    color: #9ca3af;
+    margin-bottom: 5px;
+    margin-left:8px ;
+}
+.DivHeight span{
+    color: white;
+}
+ .DivHeight h3{
+color: #eab308;
+ margin-left:8px ;
+ }
+ .DivAbilities{
+   width: 100%;
+    height: 120px;
+     background-color: rgba(31, 41, 55, 0.5);
+     display: flex;
+  
+     justify-content: center;
+   flex-direction: column;
+   
+   padding: 10px;
+   border-radius: 6px;
+ }
+  .DivAbilities ul{
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  .DivAbilities  h3{
+color: #eab308;
+ margin-left:8px ;
+ }
+  .DivAbilities ul li{
+     margin-left:8px ;
+     margin-bottom: 5px;
+     color: white;
+    
+  }
+  .DivBars{
+     width: 100%;
+    height: auto;
+     background-color: rgba(31, 41, 55, 0.5);
+     display: flex;
+  
+     justify-content: center;
+   flex-direction: column;
+   
+   padding: 10px;
+   border-radius: 6px;
+   padding: 20px;
+  
+  }
+  .DivBars ul{
+    text-decoration: none;
+    list-style: none;
+    appearance: none;
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+   
+  .DivBars h3{
+      color: #eab308;
+
+  }
+  .DivBars ul li p{
+    width: 100%;
+  height: 5px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+    .DivBars ul li p span{
+        font-size: 14px;
+    }
+  .Div{
+    width: 100%;
+    height: 15px;
+  
+ border-radius: 10px 10px 10px 10px;
+ background-color: #111827;
+  }
+    
+  .DivName{
+      width: 80%;
+    height: 15px;
+ 
+    
+     border-radius: 10px 10px 10px 10px;
+  }
+
+li:nth-child(1) .Div .DivName {
+background-color: #ef4444;
+    }
+    li:nth-child(2) .Div .DivName {
+background-color: #f97316;
+    }
+    li:nth-child(3) .Div .DivName {
+background-color: #eab308;
+    }
+    li:nth-child(4) .Div .DivName {
+background-color: #3b82f6;
+    }
+    li:nth-child(5) .Div .DivName {
+background-color: #22c55e;
+    }
+    li:nth-child(6) .Div .DivName {
+background-color: #ec4899;
+    }
